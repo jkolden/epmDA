@@ -1,0 +1,13 @@
+{
+  "name" : "epm1082ccs",
+  "version" : "1.0.0",
+  "description" : "Epm 1082",
+  "main" : "epm1082ccs.js",
+  "dependencies": {
+    "joi": "^9.2.0",
+    "log4js": "^1.1.1",
+    "xml2js": "^0.4.19",
+    "word-to-number-node": "^1.0.3",
+    "number-to-words": "^1.2.3"
+  }
+}

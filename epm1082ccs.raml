@@ -1,0 +1,14 @@
+#%RAML 0.8
+title: epm1082ccs
+version: 1.0
+baseUri: /mobile/custom/epm1082ccs
+protocols: [HTTPS]
+/components:
+  get:
+    protocols: [HTTPS]
+  /{componentName}:
+    uriParameters:
+      componentName:
+        displayName: componentName
+        type: string
+    post:
