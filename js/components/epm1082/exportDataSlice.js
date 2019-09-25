@@ -91,8 +91,6 @@ module.exports = {
 
       conversation.variable("slice", formatter.format(parseInt(slice)));
       conversation.transition("success");
-      console.log("this is my object from 1082");
-      console.log(obj);
       done();
 
           }
